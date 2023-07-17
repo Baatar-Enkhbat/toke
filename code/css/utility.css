@@ -1,0 +1,329 @@
+:root {
+    --main-color: #88cad2;
+}
+
+.alexBrush {
+    font-family: 'Alex Brush', cursive;
+}
+
+@font-face {
+    font-family: 'A-OTFRyuminProB-KL';
+    src: url('../fonts/A-OTFRyuminProB-KL/A-OTFRyuminProB-KL.otf') format('opentype');
+}
+
+.a-OTFRyuminProB-KL {
+    font-family: 'A-OTFRyuminProB-KL';
+}
+
+@font-face {
+    font-family: 'A-OTFRyuminProEB-KL';
+    src: url('../fonts/A-OTFRyuminProEB-KL/A-OTFRyuminProEB-KL.otf') format('opentype');
+}
+
+.a-OTFRyuminProEB-KL {
+    font-family: 'A-OTFRyuminProEB-KL';
+}
+
+@font-face {
+    font-family: 'A-OTFRyuminProEH-KL';
+    src: url('../fonts/A-OTFRyuminProEH-KL/A-OTFRyuminProEH-KL.otf') format('opentype');
+}
+
+.a-OTFRyuminProEH-KL {
+    font-family: 'A-OTFRyuminProEH-KL';
+}
+
+@font-face {
+    font-family: 'A-OTFRyuminProH-KL';
+    src: url('../fonts/A-OTFRyuminProH-KL/A-OTFRyuminProH-KL.otf') format('opentype');
+}
+
+.a-OTFRyuminProH-KL {
+    font-family: 'A-OTFRyuminProH-KL';
+}
+
+@font-face {
+    font-family: 'A-OTFRyuminProL-KL';
+    src: url('../fonts/A-OTFRyuminProL-KL/A-OTFRyuminProL-KL.otf') format('opentype');
+}
+
+.a-OTFRyuminProL-KL {
+    font-family: 'A-OTFRyuminProL-KL';
+}
+
+@font-face {
+    font-family: 'A-OTFRyuminProM-KL';
+    src: url('../fonts/A-OTFRyuminProM-KL/A-OTFRyuminProM-KL.otf') format('opentype');
+}
+
+.a-OTFRyuminProM-KL {
+    font-family: 'A-OTFRyuminProM-KL';
+}
+
+@font-face {
+    font-family: 'A-OTFRyuminProU-KL';
+    src: url('../fonts/A-OTFRyuminProU-KL/A-OTFRyuminProU-KL.otf') format('opentype');
+}
+
+.a-OTFRyuminProU-KL {
+    font-family: 'A-OTFRyuminProU-KL';
+}
+
+@font-face {
+    font-family: 'A-OTFGothicMB101Pr5M';
+    src: url('../fonts/A-OTFGothicMB101Pr5M.otf') format('opentype');
+}
+
+.a-OTFGothicMB101Pr5M {
+    font-family: 'A-OTFGothicMB101Pr5M';
+}
+
+@font-face {
+    font-family: 'MinionPro-Regular';
+    src: url('../fonts/MinionPro-Regular.otf') format('opentype');
+}
+
+.minionPro-Regular {
+    font-family: 'MinionPro-Regular';
+}
+
+@font-face {
+    font-family: 'MinionVariableConcept-Roman';
+    src: url('../fonts/MinionVariableConcept-Roman.otf') format('opentype');
+}
+
+.MinionVariableConcept-Roman {
+    font-family: 'MinionVariableConcept-Roman';
+}
+
+@font-face {
+    font-family: 'DINBold';
+    src: url('../fonts/DINBold.otf') format('opentype');
+}
+
+.dinbold {
+    font-family: 'DINBold';
+}
+
+.bg_main {
+    background: var(--main-color);
+}
+
+.py_10 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+
+/* title start */
+
+.title {
+    font-size: 4rem;
+    line-height: 0.4;
+    color: #066d86;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.title_sub {
+    font-size: 0.9rem;
+    line-height: 0.5;
+    color: #333;
+}
+
+.sub {
+    font-size: 1.8rem;
+    color: #066d86;
+}
+
+.desc {
+    font-size: 0.9rem;
+    line-height: 2.5;
+}
+
+
+/* title end */
+
+
+/* btn start */
+
+.a_btn {
+    margin-top: 2rem;
+    width: 150px;
+    font-size: 0.9rem;
+    padding: 0.7rem 0;
+    text-align: center;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    border-left: 10px solid #333;
+    border-right: 1px solid #333;
+    color: #333;
+    transition: all 0.1s ease-in-out;
+}
+
+.a_btn:hover {
+    margin-top: 2rem;
+    background: #f9feff;
+    width: 150px;
+    font-size: 0.9rem;
+    padding: 0.7rem 0;
+    text-align: center;
+    border-top: 1px solid #066d86;
+    border-bottom: 1px solid #066d86;
+    border-left: 10px solid #066d86;
+    border-right: 1px solid #066d86;
+    transform: translateX(5%);
+    color: #000;
+}
+
+
+/* btn end */
+
+
+/* btn main start */
+
+.btn_main {
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+.btn_sub {
+    font-size: 1rem;
+}
+
+.btn_01 {
+    background: #066d86;
+    color: #fff;
+}
+
+.btn_02 {
+    background: #6cc9ed;
+    color: #fff;
+}
+
+.btn_03 {
+    background: #000;
+    color: #fff;
+}
+
+
+/* btn main end */
+
+
+/* width start */
+
+.w_main {
+    max-width: 1520px;
+}
+
+
+/* width end */
+
+
+/* right bg start */
+
+.bg_right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #88cad2;
+    width: 40%;
+    height: 100%;
+    z-index: -1;
+}
+
+.bg_left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #88cad2;
+    width: 40%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+/* right bg end */
+
+@media (max-width: 1399.98px) {
+    .w_main {
+        max-width: 1100px;
+    }
+    /* right bg start */
+    .bg_right {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #88cad2;
+        width: 25%;
+        height: 100%;
+        z-index: -1;
+    }
+    .bg_left {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #88cad2;
+        width: 25%;
+        height: 100%;
+        z-index: -1;
+    }
+    /* right bg end */
+}
+
+@media (max-width: 767.98px) {
+    /* title start */
+    .title {
+        font-size: 3.5rem;
+        line-height: 0.4;
+        color: #066d86;
+        display: inline-block;
+        text-align: center;
+        padding-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    .title_sub {
+        font-size: 0.9rem;
+        line-height: 0.5;
+        color: #333;
+    }
+    .sub {
+        font-size: 1.3rem;
+        color: #066d86;
+    }
+    .desc {
+        font-size: 0.9rem;
+        line-height: 2.5;
+    }
+    /* title end */
+    .py_10 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    /* width start */
+    .w_main {
+        width: 95%;
+    }
+    /* width end */
+    /* right bg start */
+    .bg_right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #88cad2;
+        width: 2%;
+        height: 100%;
+        z-index: -1;
+    }
+    .bg_left {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #88cad2;
+        width: 2%;
+        height: 100%;
+        z-index: -1;
+    }
+    /* right bg end */
+}

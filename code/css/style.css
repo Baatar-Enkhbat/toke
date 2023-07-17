@@ -1,0 +1,154 @@
+header {
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: url('../img/top/bg.jpg') no-repeat center center / cover;
+}
+
+.logo_top {
+    position: absolute;
+    width: 18%;
+    top: 1rem;
+    left: 1rem;
+}
+
+.txt108 {
+    position: absolute;
+    width: 30%;
+    top: 13rem;
+    left: 1rem;
+}
+
+.chiba_city {
+    position: absolute;
+    width: 35%;
+    top: 11rem;
+    right: 10rem;
+}
+
+.txt_white {
+    position: absolute;
+    top: 2rem;
+    width: 40%;
+    right: 11rem;
+}
+
+.yokoku {
+    position: absolute;
+    width: 30%;
+    left: 0;
+    bottom: 12rem;
+}
+
+.yokoku_date {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 70%;
+    left: 0;
+    bottom: 3rem;
+}
+
+.kukaku {
+    width: 80%;
+}
+
+.camera {
+    width: 80%;
+}
+
+
+/* footer start */
+
+.footer {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.footer_ttl {
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+.footer_ttl_sub {
+    font-size: 1.1rem;
+}
+
+.footer_icon_contact {
+    width: 5rem;
+}
+
+.footer_phone {
+    font-size: 2rem;
+}
+
+.footer_tel {
+    font-size: 2.5rem;
+}
+
+.footer_num {
+    font-size: 4rem;
+}
+
+.footer_logo {
+    width: 80%;
+}
+
+.footer_item {
+    color: #fff;
+}
+
+.copyright {
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+}
+
+
+/* footer end */
+
+@media (max-width: 767.98px) {
+    .camera {
+        width: 100%;
+    }
+    /* footer start */
+    .footer {
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+    }
+    .footer_ttl {
+        font-size: 2rem;
+        line-height: 1;
+    }
+    .footer_ttl_sub {
+        font-size: 1.1rem;
+    }
+    .footer_icon_contact {
+        width: 3rem;
+    }
+    .footer_phone {
+        font-size: 1.2rem;
+    }
+    .footer_tel {
+        font-size: 1.5rem;
+    }
+    .footer_num {
+        font-size: 2.5rem;
+        line-height: 0.5;
+    }
+    .date_time {
+        font-size: 0.7rem;
+        letter-spacing: -0.2px;
+    }
+    .footer_logo {
+        width: 80%;
+    }
+    .footer_item {
+        color: #fff;
+        font-size: 0.9rem;
+    }
+    .copyright {
+        font-size: 0.8rem;
+        letter-spacing: 2px;
+    }
+    /* footer end */
+}
